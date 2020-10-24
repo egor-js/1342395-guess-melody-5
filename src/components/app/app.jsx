@@ -18,7 +18,7 @@ const App = (props) => {
       <Switch>
         <Route exact
           path="/"
-          render={({ history }) => (
+          render={({history}) => (
             <WelcomeScreen
               onPlayButtonClick={() => history.push(`/game`)}
               errorsCount={errorsCount}
